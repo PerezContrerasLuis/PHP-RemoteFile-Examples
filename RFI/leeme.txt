@@ -1,0 +1,12 @@
+para poder realizar esta practica en el modo local , 
+usted tiene que tener activda la linea
+allow_url_include=On 
+dentro del archivo php.ini
+, desactivando la linea con un Off
+se evita la inclusion de url:
+
+; Whether to allow include/require to open URLs (like http:// or ftp://) as files.
+; http://php.net/allow-url-include
+allow_url_include=Off
+
+php/php.ini
